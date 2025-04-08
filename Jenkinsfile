@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the code from your Git repository
-                git 'https://github.com/your-username/your-repository.git'
+                git 'https://github.com/maheshreddy-lag/devops-mahi.git'
             }
         }
 
