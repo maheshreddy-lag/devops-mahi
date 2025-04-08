@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = 'docker-hub-credentials'  // ID of the Docker Hub credentials in Jenkins
-        IMAGE_NAME = 'maheshreddy580'  // Docker Hub repository
+        IMAGE_NAME = 'maheshreddy580/maheshreddy580/myapp'  // Docker Hub repository
         TAG = 'latest'  // You can set a dynamic tag if needed (e.g., build number or git hash)
     }
 
